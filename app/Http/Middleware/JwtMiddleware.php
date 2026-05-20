@@ -18,7 +18,7 @@ class JwtMiddleware
         }
 
         try {
-            $decoded = JWT::decode($token, new Key('my-super-secret-key-2026-laravel-jwt-authentication', 'HS256'));
+            $decoded = JWT::decode($token, new Key('Qw3rty!@#-laravel-jwt-2026-secure', 'HS256'));
 
             if (!is_object($decoded)) {
                 return response()->json([

@@ -9,7 +9,7 @@ class AuthController extends Controller
 {
     public function generateToken(Request $request)
     {
-        $secretKey = $secretKey = 'my-super-secret-key-2026-laravel-jwt-authentication';
+        $secretKey = $secretKey = 'Qw3rty!@#-laravel-jwt-2026-secure';
 
         $payload = [
             'name' => $request->name,

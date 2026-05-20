@@ -1,5 +1,5 @@
 ## Hasil dari nomer 3
-![Screenshot DB Query](docs/hasil-nomer-3)
+![Screenshot DB Query](docs/hasil-nomer-3.png)
 
 ## Hasil dari Nomer 4
 url endpoint : http://127.0.0.1:8000/api/token
